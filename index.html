@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function add7() {
+
+            let ask = Number(prompt("Enter a number to add to 7"));
+
+            let sum = (ask + 7);
+
+            alert(sum);
+        }
+
+        // add7();
+
+        function multiply(num1, num2) {
+            let product = (num1 * num2);
+            alert(product);
+        }
+
+        // multiply(5, 8);
+
+        function capitalize(str) {
+
+            let ans = str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+            console.log(ans);
+        }
+
+        // capitalize("mAtTHeW");
+
+        function lastLetter(str) {
+            let ans = str.charAt(str.length - 1);
+
+            console.log(ans);
+        }
+
+        lastLetter("Matthewmonaco");
+        
+
+    </script>
+    
+</body>
+</html>
